@@ -61,9 +61,9 @@ InputSignals Interface::getInput(){
 }
 
 void Interface::lEtirps(){
-	cout << "Amount: " << amount << endl;
+	*outputAddress = 0x00000002;
 }
 
 void Interface::lMeet(){
-	cout << "Amount: " << amount << endl;
+	*outputAddress = 0x00000001;
 }
