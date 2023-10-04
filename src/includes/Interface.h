@@ -14,7 +14,6 @@ class Interface {
     protected:
         volatile unsigned int *readAddress = (volatile unsigned int *)0x80000a00;
         volatile unsigned int *outputAddress = (volatile unsigned int *)0x80000a04;
-		int inputChoice;
 		InputSignals input;
 	public:
 		InputSignals getInput();
